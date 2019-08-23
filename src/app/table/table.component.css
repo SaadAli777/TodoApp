@@ -1,0 +1,98 @@
+mat-grid-tile {
+    padding:0%;
+  
+  }
+  
+  .div1{
+    
+    background: white;
+    margin-top:5px;
+    text-align: center;
+    color: #673ab7;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .head
+  {
+  background-image: linear-gradient(to right,#a38fc5 , lightblue);
+  color: white;
+  text-shadow: teal;
+  font-weight: bold;
+  }
+  .div2{
+    background:white;
+    margin-top: 24px;
+    text-align: center;
+    color:black;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px #876eb1 solid;
+    border-bottom: 1px #8363b9 solid;
+    border-radius: 20px;
+    
+  }
+  
+  .div2:hover{
+  
+    background-color: rgb(199, 190, 190);
+   
+  }
+  
+  .top{
+  
+    
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-left: 6px #673ab7 solid;
+    border-bottom: 5px #673ab7 solid;
+    border-top: 6px #673ab7 solid;
+    border-right: 5px #673ab7 solid;
+    border-radius: 20px;
+    
+  
+  }
+    
+    .example-container {
+      display: flex;
+      flex-direction: column;
+      border-right: 4px #673ab7 solid;
+      border-bottom: 3px #673ab7 solid;
+      border-left: 4px #673ab7 solid;
+      border-top: 3px #673ab7 solid;
+      border-radius: 20px;
+      width: 40%;
+      
+      margin-left: auto;
+      
+      margin-right: auto;
+      margin-top: auto;
+      box-shadow: 2px 2px #673ab7;
+      
+    }
+    
+    .example-container > * {
+      width: 80%;
+      height: 80px;
+      margin-left: 10%;
+      margin-top: 25px;
+    }
+    .example-button-row button,
+    .example-button-row a {
+      margin-left: 40%;
+      
+    }
+    .del{
+      background: #673ab7;
+      color: white;
+  
+    }
+    .add{
+      background: #673ab7;
+      color:white;
+  
+    }

@@ -1,0 +1,21 @@
+
+  <mat-toolbar class="head">
+        <mat-toolbar-row >Todo App</mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-card  class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Enter your todo" [(ngModel)]="this.todoService.newtask" >
+  </mat-form-field>
+
+  <div class="example-button-row"></div>
+    <button mat-fab class="add" ng-enter="this.todoService.addnewtask(this.todoService.newtask)" (click)="this.todoService.addnewtask(this.todoService.newtask)">Add</button>
+  </div>
+</mat-card >
+
+<app-table [array]="array"></app-table>
+
+<!-- Timer -->
+<div>
+<p>{{times|async}}</p>
+</div>

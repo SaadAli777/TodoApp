@@ -1,0 +1,22 @@
+<div class="top">
+    <mat-card class="example-card">
+      <mat-grid-list cols="4" rowHeight="8:2" class="div1">
+      <mat-grid-tile><h2>No.</h2></mat-grid-tile>
+      <mat-grid-tile><h2>Task</h2></mat-grid-tile>
+      <mat-grid-tile><h2>Status</h2></mat-grid-tile>
+      <mat-grid-tile><h2>Delete</h2></mat-grid-tile>
+    </mat-grid-list>
+
+  <br>
+
+  <mat-card-content [style.overflow]="'auto'" [style.height.px]="200">
+      <mat-grid-list cols="4" rowHeight="6:2" class="div2" *ngFor="let task of array"> 
+      <mat-grid-tile>{{task.priority}}</mat-grid-tile>
+      <mat-grid-tile>{{task.task}}</mat-grid-tile>
+      <mat-grid-tile><mat-checkbox color="primary" [(ngModel)]="task.done" (click)="this.todoService.checkSnackBar(task);" ></mat-checkbox></mat-grid-tile>
+      <mat-grid-tile><button  mat-flat-button  (click)="this.todoService.newstatus(task)" class="del">Delete</button></mat-grid-tile>
+      </mat-grid-list>
+      </mat-card-content>
+  </mat-card>
+</div>
+   

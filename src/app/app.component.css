@@ -1,0 +1,88 @@
+mat-grid-tile {
+  padding:0%;
+
+}
+
+.div1{
+  
+  background: white;
+  margin-top:5px;
+  text-align: center;
+  color: #673ab7;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.head{
+     background-color:#3f51b5;
+     color: white;
+     text-shadow: teal;
+     font-weight: bold;
+     width :100%;
+}
+.div2{
+  background:white;
+  margin-top: 24px;
+  text-align: center;
+  color:black;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px #876eb1 solid;
+  border-bottom: 1px #8363b9 solid;
+  border-radius: 20px;
+  
+}
+
+.div2:hover{
+
+  background-color:#0492c2;
+}
+
+.top{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 6px #3f51b5 solid;
+  border-radius: 20px;
+}
+  
+  .example-container {
+    margin-top: 80px;
+    display: flex;
+    /* flex-direction: column; */
+     border :5px #3f51b5  solid;
+    border-radius: 50px;
+    width: 25%;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    margin-top: auto;
+    box-shadow: 2px 2px #673ab7;
+    
+  }
+  
+  .example-container > * {
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+
+  .example-button-row a {
+    margin-left: 40%;
+  }
+
+  .del{
+    background: #673ab7;
+    color: white;
+
+  }
+  .add{
+    background: #673ab7;
+    color:white;
+
+  }
